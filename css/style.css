@@ -1,0 +1,206 @@
+/* Custom Fonts  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+
+}
+*{}
+
+/* Header Css */
+.header{}
+.header-menu{}
+.header-menu ul{}
+.header-menu ul li{
+    padding: 0px 10px;
+    color: #707070;
+}
+.header-menu ul li a{
+    font-size: 18px;
+    font-weight: 400;
+    
+}
+/* Header Css */
+
+
+/* Carosell Css */
+.cr-button {
+    background-color: #000000;
+    color: #fff;
+    padding: 6px 15px;
+    border: 0px solid #dddddd;
+}
+.cr-heading {
+    color: #1F1F1F;
+    font-size: 41px;
+    font-weight: 400;
+    padding-bottom: 20px;
+    text-transform: capitalize;
+}
+.cr-p {
+    font-size: 15px;
+    color: #707070;
+    font-weight: 300;
+    line-height: 30px;
+    padding-bottom: 20px;
+}
+
+/* linear-gradient(to bottom , #FF9C35 0%, #FFD019 100%); */
+.carousel-indicators li {
+    box-sizing: content-box;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+    width: 20px;
+    height: 3px;
+    margin-right: 4px;
+    margin-left: 4px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-clip: padding-box;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    opacity: .5;
+    transition: opacity .6s ease;
+    background-image: linear-gradient(to left , #FF9C35 0%, #FFD019 100%);
+    margin-top: 15px;
+}
+.best{
+    position: relative;
+}
+.best h2 {
+    position: fixed;
+    top: 280px;
+    left: 800px;
+    text-transform: uppercase;
+    transform: rotate(-90deg);
+    font-size: 39px;
+    color: #eaeaea;
+    transition: 0.5s all ease;
+}
+
+/* Carosell Css */
+
+
+/* Smartphone Css  */
+.smartphone{
+    padding: 10px 0px;
+}
+.smartphone-heading{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+
+}
+.s-head{
+    flex-basis: 60%;
+    max-width: 60%;
+}
+.s-head h2{
+    color: #1F1F1F;
+    font-size: 30px;
+    font-weight: 300;
+}
+.s-link{
+    flex-basis: 40%;
+    max-width: 40%; 
+    text-align: end;
+}
+.s-link a{
+    text-decoration: none;
+    color: #FF9C35;
+    display: block;
+    justify-content: flex-end;
+}
+.round-h{
+    border-radius: 4%;
+}
+.card-title{
+    font-size: 24px;
+    font-weight: 400;
+    text-transform: capitalize;
+    padding: 10px 0px;
+    color: #1F1F1F;
+
+}
+.card-text{
+    font-size: 16px;
+    color: #707070;
+    font-weight: 300;
+}
+.card-price{
+    font-size: 24px;
+    font-weight: 400;
+    text-transform: capitalize;
+    padding: 10px 0px;
+    color: #1F1F1F;
+}
+.card-button{
+    background-color: #000000;
+    color: #fff;
+    padding: 5px 10px;
+    border: 0px solid #dddddd;
+    font-size: 18px;
+    border-radius: 5%;
+}
+/* Smartphone Css  */
+
+/* Category */
+.h-ct{
+    font-size: 24px;
+    font-weight: 400;
+    text-transform: capitalize;
+    color: #1F1F1F;
+}
+hr{
+    width: 5%;
+    text-align: center;
+    height: 3px;
+    background-image: linear-gradient(to left , #FF9C35 0%, #FFD019 100%);
+}
+.bag {
+    margin: 10px 10px 20px 0px;
+    padding: 50px 30px 30px 30px;
+    border-radius: 0px 25px 0px 25px;
+    transition: 0.6s all ease;
+}
+.bag:hover{
+    border-radius: 25px 0px 25px 0px;
+    box-shadow: 0 1.5rem 1rem rgba(0,0,0,.15)!important;
+}
+.ct-h {
+    font-weight: 400;
+    font-size: 24px;
+}
+.ct-img {
+    width: 50%;
+    padding-bottom: 30px;
+}
+.middle {
+    margin-top: 50%;
+}
+/* Category */
+
+/* Footer Section  */
+.f-content{
+
+}
+.f-content h6{
+    font-size: 18px;
+    color: rgb(216, 216, 216);
+    font-weight: 300;
+    transition: 0.3s all ease;
+}
+.f-content h6 a{
+    color: rgb(216, 216, 216);
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: 300;
+    transition: 0.3s all ease;
+}
+.f-content h6:hover{
+    color: #fff;
+}
+.f-content h6 a:hover{
+    color: rgb(62, 62, 255);
+}
+/* Footer Section  */
